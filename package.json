@@ -1,0 +1,25 @@
+{
+  "name": "money-journal",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@react-native-firebase/app": "^12.0.0",
+    "@react-native-firebase/auth": "^12.0.0",
+    "@react-native-firebase/firestore": "^12.0.0",
+    "react": "17.0.1",
+    "react-native": "0.64.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\.js$": "babel-jest"
+    }
+  }
+}
