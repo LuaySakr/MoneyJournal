@@ -1,5 +1,11 @@
 ## [unreleased] — 2026-10-23
 ### Changed
+- Task: CI/CD Setup for Automated Testing
+- Files modified: .github/workflows/ci.yml, frontend/package.json, backend/requirements.txt, backend/tests/test_sample.py
+- Agent: openai
+
+## [unreleased] — 2026-10-23
+### Changed
 - Task: Database Setup in Firebase
 - Files modified: firebase/init.js, firebase/firestore.rules, firebase/tests/firestoreConnectionTest.js, firebase/.github/workflows/ci.yml
 - Agent: openai
