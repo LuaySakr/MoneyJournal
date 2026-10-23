@@ -1,0 +1,9 @@
+// Firestore security rules
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /guestbookMessages/{document=**} {
+      allow read, write: if true; // Allowing read and write for unauthenticated users
+    }
+  }
+}

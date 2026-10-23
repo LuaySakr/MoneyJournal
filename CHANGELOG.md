@@ -1,5 +1,17 @@
 ## [unreleased] — 2026-10-23
 ### Changed
+- Task: Database Setup in Firebase
+- Files modified: firebase/init.js, firebase/firestore.rules, firebase/tests/firestoreConnectionTest.js, firebase/.github/workflows/ci.yml
+- Agent: openai
+
+## [unreleased] — 2026-10-23
+### Changed
+- Task: Database Setup in Firebase
+- Files modified: /firebase/initFirestore.js, /firebase/firestore.rules, /server/functions/index.js, /client/src/App.js
+- Agent: openai
+
+## [unreleased] — 2026-10-23
+### Changed
 - Task: Project Initialization
 - Files modified: src/index.tsx, src/App.tsx, src/reportWebVitals.ts, src/index.css
 - Agent: openai
