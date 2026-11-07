@@ -1,5 +1,11 @@
 ## [unreleased] — 2026-11-07
 ### Changed
+- Task: Develop Guestbook Form Component
+- Files modified: src/components/GuestbookForm.js, src/components/GuestbookForm.test.js
+- Agent: openai
+
+## [unreleased] — 2026-11-07
+### Changed
 - Task: Create Guestbook API Endpoint
 - Files modified: src/pages/api/guestbook.js, tests/api/guestbook.test.js
 - Agent: openai
